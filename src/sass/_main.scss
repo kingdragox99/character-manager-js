@@ -3,6 +3,22 @@
 @import "_fonts.scss";
 
 
+.div_main_char{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 1000px;
+}
+
+.div_test{
+    height: 200px;
+    width: 150px;
+    background-color: coral;
+}
+
 .p_test_name{
     background-color: brown;
     color: white;
