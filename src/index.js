@@ -41,6 +41,31 @@ const listCharacters = async() => {
 
     document.getElementById("aBtn" + i).innerHTML = "Learn More";
 
+    const site = 'http://127.0.0.1:5500/';
+
+    aBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        const url = site + json[i].name;
+        window.open(url,"_self").document.write('<!DOCTYPE html><html><head><title>'+json[i].name+'</title><script type="module" src="./src/index.js"></script><link rel="stylesheet" href="./src/css/index.min.css" /></head><body><header><h1 class="h1_char" id="h1_char">'+json[i].name+'</h1></header><main><div class="main_char_div" id="main_char_div"></div></main><footer></footer></body></html>');
+        
+        const h1 = document.getElementById("h1_char").innerHTML = json[i].name;
+
+        const img = document.createElement("img");
+            img.setAttribute("id", "pImg");
+            img.setAttribute("src", "data:image/png;base64," + json[i].image);
+            img.setAttribute("class", "img_char")
+            
+            document.getElementById("main_char_div").appendChild(img);
+
+        const pDeskL = document.createElement("p");
+            pDeskL.setAttribute("id", "pName");
+            pDeskL.setAttribute("class", "p_char_desc");
+            document.getElementById("main_char_div").appendChild(pDeskL);
+
+            document.getElementById("pName").innerHTML = json[i].description;
+});
+
+
   }
 };
 
