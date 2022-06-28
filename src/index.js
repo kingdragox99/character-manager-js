@@ -7,10 +7,16 @@ const testWp = async() =>{
     console.log(json)
 
         for(let i=0; i < json.length;i++){
+
             const div = document.createElement("div");
                 div.setAttribute("id","div"+i);
                 div.setAttribute("class","div_test");
                 document.getElementById('list_char').appendChild(div);
+
+                const img = document.createElement("img");
+                img.setAttribute("id","pImg"+i);
+                img.setAttribute("src","data:image/png;base64,"+json[i].image);
+                document.getElementById("div"+i).appendChild(img);
         
                 const pName = document.createElement("p");
                 pName.setAttribute("id","pName"+i);
