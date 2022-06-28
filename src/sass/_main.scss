@@ -8,9 +8,10 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	align-content: center;
-    height: 1000px;
+    width: 100vw;
+    height: auto;
 }
 
 .div_test{

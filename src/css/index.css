@@ -65,12 +65,13 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-line-pack: center;
       align-content: center;
-  height: 1000px;
+  width: 100vw;
+  height: auto;
 }
 
 .div_test {
