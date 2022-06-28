@@ -1,11 +1,14 @@
 @import "_var.scss";
 @import "_mixin.scss";
 @import "_fonts.scss";
-
+html {
+  overflow-x: hidden;
+}
 body {
   background-image: url("/img/space_retravaille-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   font-family: $comic;
 
   main {
