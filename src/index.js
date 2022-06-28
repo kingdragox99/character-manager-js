@@ -1,4 +1,4 @@
-const testWp = async () => {
+const listCharacters = async () => {
   const response = await fetch(
     "https://character-database.becode.xyz/characters"
   );
@@ -16,6 +16,7 @@ const testWp = async () => {
     const img = document.createElement("img");
     img.setAttribute("id", "pImg" + i);
     img.setAttribute("src", "data:image/png;base64," + json[i].image);
+    img.setAttribute("class", "main_img")
     document.getElementById("div" + i).appendChild(img);
 
     const pName = document.createElement("p");
@@ -34,19 +35,18 @@ const testWp = async () => {
   }
 };
 
-window.addEventListener("load", function (e) {
-  testWp();
+const f = document.getElementById('form');
+const q = document.getElementById('query');
+const site = 'https://character-database.becode.xyz/characters/?name=';
+
+function submitted(event) {
+        event.preventDefault();
+        const url = site + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+ }
+
+ f.addEventListener('submit', submitted);
+ window.addEventListener("load", function (e) {
+    listCharacters();
 });
-// const f = document.getElementById('form');
-// const q = document.getElementById('query');
-// const google = 'https://www.google.com/search?q=site%3A+';
-// const site = 'pagedart.com';
-
-// function submitted(event) {
-//   event.preventDefault();
-//   const url = google + site + '+' + q.value;
-//   const win = window.open(url, '_blank');
-//   win.focus();
-// }
-
-// f.addEventListener('submit', submitted);
