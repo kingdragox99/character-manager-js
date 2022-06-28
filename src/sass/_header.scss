@@ -1,49 +1,73 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  form {
-    background-color: #c5c6cc;
-    width: 300px;
-    height: 44px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    input {
-      all: unset;
-      font: 16px system-ui;
-      color: #fff;
-      height: 100%;
-      width: 100%;
-      padding: 6px 10px;
-      ::placeholder {
-        color: #fff;
-        opacity: 0.7;
+body {
+  header {
+    height: 200px;
+    background-image: url(/img/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -520px;
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 20px;
+      padding-top: 20px;
+      form {
+        background-color: #1c484e;
+        width: 300px;
+        height: 44px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        input {
+          all: unset;
+          font: 16px $comic;
+          color: $bluetext;
+          height: 100%;
+          width: 100%;
+          padding: 6px 10px;
+          ::placeholder {
+            color: $bluetext;
+            opacity: 0.7;
+          }
+        }
+        .button_search {
+          all: unset;
+          cursor: pointer;
+          width: 44px;
+          height: 44px;
+          svg {
+            color: $bluetext;
+            fill: currentColor;
+            width: 24px;
+            height: 24px;
+            padding: 10px;
+          }
+        }
+      }
+      .button_add {
+        background-color: #1c484e;
+        font: 16px $comic;
+        color: $bluetext;
+        width: 200px;
+        height: 44px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        padding: 6px 10px;
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
-    .button_search {
-      all: unset;
-      cursor: pointer;
-      width: 44px;
-      height: 44px;
-      svg {
-        color: #fff;
-        fill: currentColor;
-        width: 24px;
-        height: 24px;
-        padding: 10px;
-      }
+    .title {
+      text-align: center;
+      color: $bluetext;
+      font-family: $comic;
+      font-size: xx-large;
+      font-weight: bold;
     }
-  }
-  .button_add {
-    background-color: #c5c6cc;
-    font: 16px system-ui;
-    color: #757583;
-    width: 300px;
-    height: 44px;
-    border: none;
-    border-radius: 5px;
-    text-align: left;
-    padding: 6px 10px;
   }
 }
