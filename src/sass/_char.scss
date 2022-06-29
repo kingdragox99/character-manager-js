@@ -81,11 +81,13 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
         .main_char_div{
             display: flex;
             flex-direction: column;
             .h1_char{
-                color:$bluetext;
+                color:$charblue;
+                text-shadow: 1px 2px 2px black;
                 text-align: center; 
                 padding: 40px 0px;
                 font-size: x-large;
@@ -99,7 +101,7 @@
                 
             }
             .p_char_desc{
-                color: #6cfcf3;
+                color: $charblue;
                 text-shadow: 1px 2px 2px black;
                 text-align: center;
                 padding: 60px 200px;
