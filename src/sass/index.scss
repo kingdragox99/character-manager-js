@@ -1,6 +1,7 @@
-@import "_reset.scss";
-@import "_var.scss";
-@import "_mixin.scss";
-@import "_fonts.scss";
+@import "./reset";
+@import "./var";
+@import "./mixin";
+@import "./fonts";
 @import "./header";
-@import "_main.scss";
+@import "./main";
+@import "./char";
