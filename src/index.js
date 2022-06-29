@@ -63,6 +63,15 @@ const listCharacters = async () => {
             document.getElementById("main_char_div").appendChild(pDeskL);
 
             document.getElementById("pName").innerHTML = json[i].description;
+
+            const cBtn = document.createElement("a");
+            cBtn.setAttribute("id", "aBtnChar" + i);
+            cBtn.setAttribute("class", "p_test_btn_c");
+            cBtn.setAttribute("href", "yooooo")
+            document.getElementById("main_char_div").appendChild(cBtn);
+
+            document.getElementById("aBtnChar" + i).innerHTML = "Delete Character";
+
         });
 
 
