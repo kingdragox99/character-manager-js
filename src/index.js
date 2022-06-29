@@ -64,14 +64,28 @@ const listCharacters = async () => {
 
             document.getElementById("pName").innerHTML = json[i].description;
 
-            const cBtn = document.createElement("a");
+            const pDTxt = document.createElement("p");
+            pDTxt.setAttribute("id", "pDTxt");
+            pDTxt.setAttribute("class", "p_char_pDTxt");
+            document.getElementById("main_char_div").appendChild(pDTxt);
+
+            const cBtn = document.createElement("input");
             cBtn.setAttribute("id", "aBtnChar" + i);
             cBtn.setAttribute("class", "p_test_btn_c");
-            cBtn.setAttribute("href", "yooooo")
+            cBtn.setAttribute("type", "button");
+            cBtn.setAttribute("value", "delete character");
             document.getElementById("main_char_div").appendChild(cBtn);
 
-            document.getElementById("aBtnChar" + i).innerHTML = "Delete Character";
 
+            const listCharactersDeleted = async () => {
+                const response = await fetch(
+                    "https://character-database.becode.xyz/characters/" + json[i].id, {
+                    method: 'DELETE'
+                });
+                console.log("id " + json[i].id + "a ete suprimer")
+            }
+
+            cBtn.addEventListener('click', listCharactersDeleted());
         });
 
 
