@@ -1,0 +1,56 @@
+.body_char{
+    font-family: $comic;
+    height: 100vh;
+    .header_char{height: 100px;
+        background-image: url(/img/giphTechno.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -380px;
+    
+        .buttons {
+          display: flex;
+          justify-content: space-between;
+          margin: 0px 20px;
+          padding-top: 20px;
+          
+          .button_add {
+            background-color: #1c484e;
+            font: 16px $comic;
+            color: $bluetext;
+            width: 200px;
+            height: 44px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            padding: 6px 10px;
+            cursor: pointer;
+            transition: all 0.5s;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
+        .title {
+          text-align: center;
+          color: $bluetext;
+          font-family: $comic;
+          font-size: xx-large;
+          font-weight: bold;
+        }
+        .h1_char{
+            color:$bluetext
+        }
+      }
+      .main_char{
+        height: 100%;
+        width: 100%;
+background-image: url("/img/space_retravaille-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .p_char_desc{
+    color:$bluetext;
+  }
+  
+      }
+    }
