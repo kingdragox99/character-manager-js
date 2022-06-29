@@ -43,19 +43,9 @@ html {
           transform: scale(1.1);
         }
         .main_img {
-          padding: 10px 10px;
           height: 100px;
           width: 100px;
-          clip-path: polygon(
-            30% 0%,
-            70% 0%,
-            100% 30%,
-            100% 70%,
-            70% 100%,
-            30% 100%,
-            0% 70%,
-            0% 30%
-          );
+          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
         }
         .p_test_name {
           color: $bluetext;
