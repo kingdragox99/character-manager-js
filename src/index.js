@@ -1,5 +1,3 @@
-import "./sass/index.scss";
-
 // fetch api + making card for each characters
 
 const listCharacters = async () => {
