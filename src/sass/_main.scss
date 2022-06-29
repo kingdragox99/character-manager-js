@@ -4,14 +4,14 @@
 html {
   overflow-x: hidden;
 }
-body {
+.body_index {
   background-image: url("/img/space_retravaille-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-family: $comic;
 
-  main {
+  .main_index {
     margin: 0 auto;
     .div_main_char {
       display: flex;
