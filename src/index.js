@@ -46,7 +46,7 @@ const listCharacters = async () => {
         aBtn.addEventListener('click', function (e) {
             e.preventDefault();
             const url = site + json[i].name;
-            window.open(url, "_self").document.write('<!DOCTYPE html><html><head><title>' + json[i].name + '</title><script type="module" src="./src/index.js"></script><link rel="stylesheet" href="./src/css/index.min.css" /></head><body class="body_char"><header class="header_char"><h1 class="h1_char" id="h1_char">' + json[i].name + '</h1></header><main class="main_char"><div class="main_char_div" id="main_char_div"></div></main><footer></footer></body></html>');
+            window.open(url, "_self").document.write('<!DOCTYPE html><html><head><title>' + json[i].name + '</title><script type="module" src="./src/index.js"></script><link rel="stylesheet" href="./src/css/index.min.css" /></head><body class="body_char"><header class="header_char"><div class="buttons"> <form id="form" role="search"> <input type="search" id="query" name="q" placeholder="Search character..." aria-label="Search through site content" /> <button id="btn_search" class="button_search"> <svg viewBox="0 0 1024 1024"> <path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"> </path> </svg> </button> </form> <button id="btn_add" class="button_add">Add new character</button> </div> <div class="title"> <h1>Character Manager</h1> </div></header><main class="main_char"><h1 class="h1_char" id="h1_char">' + json[i].name + '</h1><div class="main_char_div" id="main_char_div"></div></main><footer></footer></body></html>');
 
             const h1 = document.getElementById("h1_char").innerHTML = json[i].name;
 
@@ -79,7 +79,7 @@ const submitted = async (event) => {
 
     event.preventDefault();
     const url = site + q.value;
-    window.open(url, "_self").document.write('<!DOCTYPE html><html><head><title>' + q.value + '</title><script type="module" src="./src/index.js"></script><link rel="stylesheet" href="./src/css/index.min.css" /></head><body><header><h1 class="h1_char" id="h1_char">' + q.value + '</h1></header><main><div class="main_char_div" id="main_char_div"></div></main><footer></footer></body></html>');
+    window.open(url, "_self").document.write('<!DOCTYPE html><html><head><title>' + json[i].name + '</title><script type="module" src="./src/index.js"></script><link rel="stylesheet" href="./src/css/index.min.css" /></head><body class="body_char"><header class="header_char"><h1 class="h1_char" id="h1_char">' + json[i].name + '</h1></header><main class="main_char"><div class="main_char_div" id="main_char_div"></div></main><footer></footer></body></html>');
 
     const response = await fetch(
         "https://character-database.becode.xyz/characters?name=" + q.value
