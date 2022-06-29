@@ -77,10 +77,14 @@ const listCharacters = async () => {
                     "https://character-database.becode.xyz/characters/" + json[i].id, {
                     method: 'DELETE'
                 });
-                console.log("id " + json[i].id + "a ete suprimer")
             }
 
-            cBtn.addEventListener('click', listCharactersDeleted());
+            cBtn.addEventListener('click', function () {
+                listCharactersDeleted()
+                alert("This character has been deleted");
+                document.location.reload(true)
+            });
+
         });
 
 
