@@ -71,7 +71,6 @@ const listCharacters = async () => {
             cBtn.setAttribute("value", "delete character");
             document.getElementById("main_char_div").appendChild(cBtn);
 
-
             const listCharactersDeleted = async () => {
                 const response = await fetch(
                     "https://character-database.becode.xyz/characters/" + json[i].id, {
@@ -86,8 +85,6 @@ const listCharacters = async () => {
             });
 
         });
-
-
     }
 };
 
@@ -127,6 +124,12 @@ const submitted = async (event) => {
 
     console.log(json)
 
+}
+
+const addCharacter = async()=>{
+   const btnAdd = document.getElementById("btn_add");
+   btnAdd.addEventListener('click', function (e) {
+   });
 }
 
 // event listener but look weardo
