@@ -32,18 +32,17 @@
     <h1 id="h1_main_ajt" class="h1_main_ajt">Ajoute ton personnage</h1>
 
     <div id="form_char_ajt" class="form_char_ajt">
-      <form action="POST" id="form_ajt" class="form_ajt">
-        <img draggable="true" alt="" id="img_main_ajt" class="img_main_ajt">
-        <input type="text" placeholder="Name" id="input_main_ajt_name" class="input_main_ajt_name" required
-          oninvalid="this.setCustomValidity('Cannot be empty')" oninput="this.setCustomValidity('')">
-        <input type="text" placeholder="Short description" id="input_main_ajt_dscS" class="input_main_ajt_dscS" required
-          oninvalid="this.setCustomValidity('Cannot be empty')" oninput="this.setCustomValidity('')">
-        <input type="text" placeholder="Long description" id="input_main_ajt_dscL" class="input_main_ajt_dscL" required
-          oninvalid="this.setCustomValidity('Cannot be empty')" oninput="this.setCustomValidity('')">
-
+        <div class="input_img_ajt">
+          <button class="btn-upload">Choose file</button>
+          <input type="file" id="img_main_ajt" class="img_main_ajt">
+        </div>
+        <p id="name_img_p" class="name_img_p">Aucune image choisie</p>
+        <input type="text" placeholder="Name" id="input_main_ajt_name" class="input_main_ajt_name"required oninvalid="this.setCustomValidity('Cannot be empty')" oninput="this.setCustomValidity('')" >
+        <input type="text" placeholder="Short description" id="input_main_ajt_dscS" class="input_main_ajt_dscS" required oninvalid="this.setCustomValidity('Cannot be empty')" oninput="this.setCustomValidity('')">
+        <input type="text" placeholder="Long description" id="input_main_ajt_dscL" class="input_main_ajt_dscL"required oninvalid="this.setCustomValidity('Cannot be empty')" oninput="this.setCustomValidity('')" >
         <button id="btn_ajt" class="button_ajt">Submit</button>
-      </form>
     </div>
+  
 
   </main>
   <footer class="footer_ajt">

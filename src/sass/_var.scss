@@ -15,16 +15,11 @@ $charblue: #6cfcf3;
     border: none;
     border-bottom: 1px solid $bluetext;
     background-color: #1c484e;
-    ;
     border-radius: 5px;
 
-}
-
-;
+};
 
 @mixin focus {
     outline: none;
     border-bottom: 3px solid $bluetext;
-}
-
-;
+};
