@@ -65,10 +65,13 @@
     }
     .title {
       text-align: center;
-      color: $bluetext;
       font-family: $comic;
       font-size: xx-large;
       font-weight: bold;
+      a {
+        text-decoration: none;
+        color: $bluetext;
+      }
     }
   }
 }
