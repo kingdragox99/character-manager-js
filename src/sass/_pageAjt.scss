@@ -1,4 +1,11 @@
 .body_ajt {
+    background-image: url("/img/space_retravaille-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: $comic;
+  
     .header_ajt {
       height: 200px;
       background-image: url(/img/giphTechno.gif);
@@ -51,6 +58,64 @@
             font-family: $comic;
             font-size: xx-large;
             font-weight: bold;
+        }
+    }
+    .main_ajt{
+        width: 100vw;
+        
+        .h1_main_ajt{
+            color:$charblue;
+            text-shadow: 1px 2px 2px black;
+            text-align: center; 
+            padding: 40px 0px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .form_char_ajt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            height: 50px;
+            
+            .input_main_ajt_name{
+                @include input;
+                &:focus {
+                    @include focus;
+                  }
+                  color: $bluetext;
+            }
+            .input_main_ajt_dscS{
+                @include input;
+                &:focus {
+                    @include focus;
+                  }
+                  color: $bluetext;
+            }
+            .input_main_ajt_dscL{
+                @include input;
+                &:focus {
+                    @include focus;
+                  }
+                  color: $bluetext;
+            }
+            
+            }
+        .button_ajt{
+            background-color: #1c484e;
+            font: 16px $comic;
+            color: $bluetext;
+            width: 200px;
+            height: 44px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            padding: 6px 10px;
+            cursor: pointer;
+            transition: all 0.5s;
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
 }
