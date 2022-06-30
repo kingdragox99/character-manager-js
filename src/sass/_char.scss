@@ -49,18 +49,19 @@
           }
           .button_add {
             background-color: #1c484e;
-            font: 16px $comic;
-            color: $bluetext;
-            width: 200px;
-            height: 44px;
             border: none;
             border-radius: 5px;
             text-align: center;
-            padding: 6px 10px;
             cursor: pointer;
             transition: all 0.5s;
             &:hover {
               transform: scale(1.1);
+            }
+            a {
+              text-decoration: none;
+              font: 16px $comic;
+              color: $bluetext;
+              padding: 12px 20px;
             }
           }
         }
