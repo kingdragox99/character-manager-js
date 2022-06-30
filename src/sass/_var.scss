@@ -11,12 +11,11 @@ $charblue: #6cfcf3;
     font: 16px $comic;
     width: 380px;
     margin-bottom: 25px;
-    padding-left: 20px;
+    padding: 10px 20px;
     border: none;
     border-bottom: 1px solid $bluetext;
     background-color: #1c484e;
     border-radius: 5px;
-
 };
 
 @mixin focus {

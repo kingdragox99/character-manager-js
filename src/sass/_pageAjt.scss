@@ -98,28 +98,29 @@
                 }
                 .btn-upload {
                     background-color: #1c484e;
-                    font-size: small;
-                    font-family: $comic; 
+                    font-family: $comic;
+                    font-size: 16px; 
                     color: $bluetext;
                     padding: 10px 44px;
                     border: none;
                     border-radius: 5px;
-                    font-size: 22px;
                     
                   }
               }
             .input_img_ajt [type=file] {
                 left: 0;
                 top: 0;
-                // transform: translate(-50%, -50%);
                 opacity: 0;
                 position: absolute;
-                font-size: 90px; 
+                height: 47px;
+                font-size: 90px;
+                width: 191px;
               }
               
             .name_img_p{
                 color: $bluetext;
-                font-size: 15px;
+                font-size: 14px;
+                text-shadow: 1px 2px 2px black;
                 margin-bottom: 25px;
             }
             .input_main_ajt_name {
@@ -144,6 +145,7 @@
 
             .input_main_ajt_dscL {
                 @include input;
+                
 
                 &:focus {
                     @include focus;
@@ -166,6 +168,7 @@
             padding: 6px 10px;
             cursor: pointer;
             transition: all 0.5s;
+            margin-bottom: 25px;
 
             &:hover {
                 transform: scale(1.1);
