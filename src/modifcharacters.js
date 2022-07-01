@@ -69,6 +69,7 @@ const creatCharacter = async () => {
             name: name,
             shortDescription: shortDescription,
             description: description,
+            //atttion le bug est ici
             image: img64.replace(/^data:image\/[a-z]+;base64,/, "")
         };
 
@@ -105,8 +106,8 @@ window.addEventListener('load', () => {
 const btnAjt = document.getElementById("btn_ajt")
 
 btnAjt.addEventListener('click', function (e) {
-    creatCharacter();
     if (confirm("Are you sure to modify this character ?") == true) {
+        creatCharacter();
         setTimeout(function () {
             window.location = "http://127.0.0.1:5500/";
         }, 2000);

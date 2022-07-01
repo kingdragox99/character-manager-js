@@ -79,9 +79,14 @@ const listCharacters = async () => {
             }
 
             cBtn.addEventListener('click', function () {
-                listCharactersDeleted()
-                alert("This character has been deleted")
-                document.location.reload(true)
+                if (confirm("Are you sure to delete this character ?") == true) {
+                    listCharactersDeleted()
+                    setTimeout(function () {
+                        window.location = "http://127.0.0.1:5500/";
+                    }, 2000);
+                } else {
+                    location.reload(true)
+                }
             });
 
         });
@@ -139,8 +144,13 @@ const submitted = async (event) => {
 
     cBtn.addEventListener('click', function () {
         listCharactersDeleted()
-        alert("This character has been deleted")
-        document.location.reload(true)
+        if (confirm("Are you sure to delete this character ?") == true) {
+            setTimeout(function () {
+                window.location = "http://127.0.0.1:5500/";
+            }, 2000);
+        } else {
+            location.reload(true)
+        }
     });
 
     console.log(json)
