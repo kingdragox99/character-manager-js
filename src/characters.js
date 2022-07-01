@@ -50,7 +50,13 @@ const btnAjt = document.getElementById("btn_ajt")
 
 btnAjt.addEventListener('click', function (e) {
     creatCharacter();
-    alert("This character has been created");
+    if (confirm("Are you sure to create this character ?") == true) {
+        setTimeout(function () {
+            window.location = "http://127.0.0.1:5500/";
+        }, 2000);
+    } else {
+        location.reload(true)
+    }
 });
 
 const fileL = document.getElementById('img_main_ajt');

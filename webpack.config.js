@@ -1,6 +1,15 @@
 module.exports = {
   mode: "production", // "production" | "development" | "none"
   // Chosen mode tells webpack to use its built-in optimizations accordingly.
+  entry: {
+    home: './src/index.js',
+    maker: './src/characters.js',
+    modif: './src/modifcharacters.js',
+  },
+  output: {
+    path: __dirname + '/dist',
+    filename: "[name].bundle.js"
+  },
   module: {
     rules: [{
       test: /\.s[ac]ss$/i,
