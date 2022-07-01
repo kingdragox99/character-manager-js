@@ -1,11 +1,13 @@
 @import "_var.scss";
 @import "_mixin.scss";
 @import "_fonts.scss";
+
 html {
   overflow-x: hidden;
 }
+
 .body_index {
-  background-image: url("./img/space_retravaille-01.jpg");
+  background-image: url("../img/space_retravaille-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,6 +16,7 @@ html {
 
   .main_index {
     margin: 0 auto;
+
     .div_main_char {
       display: flex;
       flex-direction: row;
@@ -23,6 +26,7 @@ html {
       align-content: center;
       width: 100vw;
       height: auto;
+
       .div_test {
         height: 250px;
         width: 200px;
@@ -43,11 +47,13 @@ html {
           box-shadow: none;
           transform: scale(1.1);
         }
+
         .main_img {
           height: 100px;
           width: 100px;
           clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
         }
+
         .p_test_name {
           color: $bluetext;
           text-align: center;
@@ -59,6 +65,7 @@ html {
           text-align: center;
           padding: 10px 10px;
         }
+
         .p_test_btn {
           background-color: #054741;
           text-decoration: none;
@@ -67,6 +74,7 @@ html {
           padding: 10px 15px;
           border-radius: 5px;
           position: relative;
+
           &:hover {
             color: $yellow;
             box-shadow: 0 0 5px $yellow;

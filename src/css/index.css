@@ -56,7 +56,7 @@ table {
 
 .body_index .header_index {
   height: 200px;
-  background-image: url("./img/giphTechno.gif");
+  background-image: url("../img/giphTechno.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -300px;
@@ -163,7 +163,7 @@ html {
 }
 
 .body_index {
-  background-image: url("./img/space_retravaille-01.jpg");
+  background-image: url("../img/space_retravaille-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -430,7 +430,7 @@ html {
 }
 
 .body_ajt {
-  background-image: url("./img/space_retravaille-01.jpg");
+  background-image: url("../img/space_retravaille-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -439,7 +439,7 @@ html {
 }
 .body_ajt .header_ajt {
   height: 200px;
-  background-image: url("./img/giphTechno.gif");
+  background-image: url("../img/giphTechno.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -300px;
