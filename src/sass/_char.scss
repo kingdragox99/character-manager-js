@@ -1,136 +1,153 @@
-.body_char{
-    font-family: $comic;
-    height: 100vh;
-    .header_char{
-        height: 150px;
-        background-image: url(/img/giphTechno.gif);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-y: -380px;
-    
-        .buttons {
-          display: flex;
-          justify-content: space-between;
-          margin: 0px 20px;
-          padding-top: 20px;
-          form {
-            background-color: #1c484e;
-            width: 300px;
-            height: 44px;
-            border-radius: 5px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            input {
-              all: unset;
-              font: 16px $comic;
-              color: $bluetext;
-              height: 100%;
-              width: 100%;
-              padding: 6px 10px;
-              ::placeholder {
-                color: $bluetext;
-                opacity: 0.7;
-              }
-            }
-            .button_search {
-              all: unset;
-              cursor: pointer;
-              width: 44px;
-              height: 44px;
-              svg {
-                color: $bluetext;
-                fill: currentColor;
-                width: 24px;
-                height: 24px;
-                padding: 10px;
-              }
-            }
-          }
-          .button_add {
-            background-color: #1c484e;
-            border: none;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.5s;
-            &:hover {
-              transform: scale(1.1);
-            }
-            a {
-              text-decoration: none;
-              font: 16px $comic;
-              color: $bluetext;
-              padding: 12px 20px;
-            }
-          }
-        }
-        .title {
-          text-align: center;
-          font-family: $comic;
-          font-size: xx-large;
-          font-weight: bold;
-          padding-bottom: 20px;
-          a {
-            text-decoration: none;
+.body_char {
+  font-family: $comic;
+  height: 100vh;
+
+  .header_char {
+    height: 150px;
+    background-image: url("../img/giphTechno.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -380px;
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 20px;
+      padding-top: 20px;
+
+      form {
+        background-color: #1c484e;
+        width: 300px;
+        height: 44px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        input {
+          all: unset;
+          font: 16px $comic;
+          color: $bluetext;
+          height: 100%;
+          width: 100%;
+          padding: 6px 10px;
+
+          ::placeholder {
             color: $bluetext;
+            opacity: 0.7;
           }
         }
-        
-      }
-      .main_char{
-        height: 100%;
-        width: 100%;
-        background-image: url("/img/space_retravaille-01.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        .main_char_div{
-            display: flex;
-            flex-direction: column;
-            .h1_char{
-                color:$charblue;
-                text-shadow: 1px 2px 2px black;
-                text-align: center; 
-                padding: 40px 0px;
-                font-size: x-large;
-                font-weight: bold;
-                }
-            .img_char{
-                height: 200px;
-                width: 200px;
-                margin: 0 auto;
-                clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-                
-            }
-            .p_char_desc{
-                color: $charblue;
-                text-shadow: 1px 2px 2px black;
-                text-align: center;
-                padding: 60px 200px;
-                font-size: large;
-                font-weight: bold;
-            }
-            .p_test_btn_c {
-                text-decoration: none;
-                background-color: #1c484e;
-                font: 16px $comic;
-                color: $bluetext;
-                width: 150px;
-                height: 40px;
-                border: none;
-                border-radius: 5px;
-                text-align: center;
-                margin-top: 20px;
-                margin-left: 210px;
-                cursor: pointer;
-                transition: all 0.5s;
-                &:hover {
-                  transform: scale(1.1);
-                }
-              }
-            }
+
+        .button_search {
+          all: unset;
+          cursor: pointer;
+          width: 44px;
+          height: 44px;
+
+          svg {
+            color: $bluetext;
+            fill: currentColor;
+            width: 24px;
+            height: 24px;
+            padding: 10px;
+          }
         }
       }
-    
+
+      .button_add {
+        background-color: #1c484e;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        a {
+          text-decoration: none;
+          font: 16px $comic;
+          color: $bluetext;
+          padding: 12px 20px;
+        }
+      }
+    }
+
+    .title {
+      text-align: center;
+      font-family: $comic;
+      font-size: xx-large;
+      font-weight: bold;
+      padding-bottom: 20px;
+
+      a {
+        text-decoration: none;
+        color: $bluetext;
+      }
+    }
+
+  }
+
+  .main_char {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/space_retravaille-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .main_char_div {
+      display: flex;
+      flex-direction: column;
+
+      .h1_char {
+        color: $charblue;
+        text-shadow: 1px 2px 2px black;
+        text-align: center;
+        padding: 40px 0px;
+        font-size: x-large;
+        font-weight: bold;
+      }
+
+      .img_char {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+      }
+
+      .p_char_desc {
+        color: $charblue;
+        text-shadow: 1px 2px 2px black;
+        text-align: center;
+        padding: 60px 200px;
+        font-size: large;
+        font-weight: bold;
+      }
+
+      .p_test_btn_c {
+        text-decoration: none;
+        background-color: #1c484e;
+        font: 16px $comic;
+        color: $bluetext;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 210px;
+        cursor: pointer;
+        transition: all 0.5s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

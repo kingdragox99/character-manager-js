@@ -109,7 +109,7 @@ btnAjt.addEventListener('click', function (e) {
     if (confirm("Are you sure to modify this character ?") == true) {
         creatCharacter();
         setTimeout(function () {
-            window.location = "http://127.0.0.1:5500/";
+            window.location = "index.html";
         }, 2000);
     } else {
         location.reload(true)

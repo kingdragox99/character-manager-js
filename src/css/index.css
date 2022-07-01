@@ -265,7 +265,7 @@ html {
 }
 .body_char .header_char {
   height: 150px;
-  background-image: url(/img/giphTechno.gif);
+  background-image: url("../img/giphTechno.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -380px;
@@ -370,7 +370,7 @@ html {
 .body_char .main_char {
   height: 100%;
   width: 100%;
-  background-image: url("/img/space_retravaille-01.jpg");
+  background-image: url("../img/space_retravaille-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

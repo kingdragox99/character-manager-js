@@ -82,7 +82,7 @@ const listCharacters = async () => {
                 if (confirm("Are you sure to delete this character ?") == true) {
                     listCharactersDeleted()
                     setTimeout(function () {
-                        window.location = "http://127.0.0.1:5500/";
+                        window.location = "index.html";
                     }, 2000);
                 } else {
                     location.reload(true)
@@ -146,7 +146,7 @@ const submitted = async (event) => {
         listCharactersDeleted()
         if (confirm("Are you sure to delete this character ?") == true) {
             setTimeout(function () {
-                window.location = "http://127.0.0.1:5500/";
+                window.location = "index.html";
             }, 2000);
         } else {
             location.reload(true)
