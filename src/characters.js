@@ -52,3 +52,10 @@ btnAjt.addEventListener('click', function (e) {
     creatCharacter();
     alert("This character has been created");
 });
+
+const fileL = document.getElementById('img_main_ajt');
+
+fileL.addEventListener('change', () => {
+    const fileN = document.querySelector('#img_main_ajt').files[0];
+    document.getElementById('name_img_p').innerHTML = fileN.name;
+});
