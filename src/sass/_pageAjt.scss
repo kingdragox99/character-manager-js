@@ -1,0 +1,335 @@
+.body_ajt {
+    background-image: url("../img/space_retravaille-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: $comic;
+
+    .header_ajt {
+        height: 200px;
+        background-image: url("../img/giphTechno.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -300px;
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: $comic;
+            font-size: xx-large;
+            font-weight: bold;
+            height: 100%;
+            width: 100%;
+            
+
+            .title_ajt {
+                text-decoration: none;
+                color: $bluetext;
+            }
+        }
+    }
+
+    .main_ajt {
+
+        .h1_main_ajt {
+            color: $charblue;
+            text-shadow: 1px 2px 2px black;
+            text-align: center;
+            padding: 40px 0px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .form_char_ajt {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            
+            .character_selection{
+                color: $bluetext;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+                background-color:#1c484e;
+                height: 25px;
+                width: 150px;
+            }
+
+            .input_img_ajt {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                margin-bottom: 5px;
+                transition: all 0.5s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                .btn-upload {
+                    background-color: #1c484e;
+                    font-family: $comic;
+                    font-size: 16px;
+                    color: $bluetext;
+                    padding: 10px 44px;
+                    border: none;
+                    border-radius: 5px;
+
+                }
+            }
+
+            .input_img_ajt [type=file] {
+                left: 0;
+                top: 0;
+                opacity: 0;
+                position: absolute;
+                height: 47px;
+                font-size: 90px;
+                width: 191px;
+            }
+
+            .name_img_p {
+                color: $bluetext;
+                font-size: 14px;
+                text-shadow: 1px 2px 2px black;
+                margin-bottom: 25px;
+            }
+
+            .input_main_ajt_name {
+                @include input;
+                width: 380px;
+
+                &:focus {
+                    @include focus;
+                }
+
+                color: $bluetext;
+            }
+
+            .input_main_ajt_dscS {
+                @include input;
+                width: 380px;
+
+                &:focus {
+                    @include focus;
+                }
+
+                color: $bluetext;
+            }
+
+            .input_main_ajt_dscL {
+                @include input;
+                width: 380px;
+
+
+                &:focus {
+                    @include focus;
+                }
+
+                color: $bluetext;
+            }
+
+        }
+
+        .button_ajt {
+            background-color: #1c484e;
+            font: 16px $comic;
+            color: $bluetext;
+            width: 200px;
+            height: 44px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            padding: 6px 10px;
+            cursor: pointer;
+            transition: all 0.5s;
+            margin-bottom: 25px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+//query tablette
+@media (min-width:768px) and (max-width:1024px) {
+
+    .body_ajt {
+      .header_ajt {
+        height: 150px;
+        background-image: url("../img/giphTechno.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -200px;
+    
+        .title {
+          text-align: center;
+          font-family: $comic;
+          font-size: xx-large;
+          font-weight: bold;
+    
+          .title_ajt {
+            text-decoration: none;
+            color: $bluetext;
+          }
+        }
+      }
+    }
+  }
+
+  //query gsm
+  @media (min-width:320px) and (max-width:767px) {
+
+    .body_ajt {
+        .header_ajt {
+          height: 100px;
+          background-image: url("../img/giphTechno.gif");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+      
+          .title {
+            height: 20px;
+            text-align: center;
+            font-family: $comic;
+            font-size: x-large;
+            font-weight: bold;
+            margin-top: 0px;
+            padding-top: 30px;
+      
+            .title_ajt {
+              text-decoration: none;
+              color: $bluetext;
+              
+            }
+          }
+        }
+      }
+      .main_ajt {
+
+        .h1_main_ajt {
+            color: $charblue;
+            text-shadow: 1px 2px 2px black;
+            text-align: center;
+            padding: 40px 0px;
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .form_char_ajt {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            
+            .character_selection{
+                color: $bluetext;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+                background-color:#1c484e;
+                height: 25px;
+                width: 150px;
+            }
+
+            .input_img_ajt {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                margin-bottom: 5px;
+                transition: all 0.5s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                .btn-upload {
+                    background-color: #1c484e;
+                    font-family: $comic;
+                    font-size: 16px;
+                    color: $bluetext;
+                    padding: 10px 44px;
+                    border: none;
+                    border-radius: 5px;
+
+                }
+            }
+
+            .input_img_ajt [type=file] {
+                left: 0;
+                top: 0;
+                opacity: 0;
+                position: absolute;
+                height: 47px;
+                font-size: 90px;
+                width: 191px;
+            }
+
+            .name_img_p {
+                color: $bluetext;
+                font-size: 14px;
+                text-shadow: 1px 2px 2px black;
+                margin-bottom: 25px;
+            }
+
+            .input_main_ajt_name {
+                @include input;
+                width: 100px;
+
+                &:focus {
+                    @include focus;
+                }
+
+                color: $bluetext;
+            }
+
+            .input_main_ajt_dscS {
+                @include input;
+                width: 100px;
+
+                &:focus {
+                    @include focus;
+                }
+
+                color: $bluetext;
+            }
+
+            .input_main_ajt_dscL {
+                @include input;
+                width: 100px;
+
+
+                &:focus {
+                    @include focus;
+                }
+
+                color: $bluetext;
+            }
+
+        }
+
+        .button_ajt {
+            background-color: #1c484e;
+            font: 16px $comic;
+            color: $bluetext;
+            width: 200px;
+            height: 44px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            padding: 6px 10px;
+            cursor: pointer;
+            transition: all 0.5s;
+            margin-bottom: 25px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    }
