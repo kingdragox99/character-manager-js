@@ -128,7 +128,18 @@ table {
   height: 24px;
   padding: 10px;
 }
-.body_index .header_index .buttons .button_add {
+.body_index .header_index .buttons .buttons_Add_Edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 20px;
+  width: 400px;
+  height: 44px;
+}
+.body_index .header_index .buttons .buttons_Add_Edit .button_add {
   background-color: #1c484e;
   border: none;
   border-radius: 5px;
@@ -137,11 +148,11 @@ table {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.body_index .header_index .buttons .button_add:hover {
+.body_index .header_index .buttons .buttons_Add_Edit .button_add:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.body_index .header_index .buttons .button_add a {
+.body_index .header_index .buttons .buttons_Add_Edit .button_add a {
   text-decoration: none;
   font: 16px "Comic Neue", cursive;
   color: #53ddd4;
@@ -153,7 +164,7 @@ table {
   font-size: xx-large;
   font-weight: bold;
 }
-.body_index .header_index .title a {
+.body_index .header_index .title .title_ajt {
   text-decoration: none;
   color: #53ddd4;
 }
@@ -337,7 +348,18 @@ html {
   height: 24px;
   padding: 10px;
 }
-.body_char .header_char .buttons .button_add {
+.body_char .header_char .buttons .buttons_Add_Edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 20px;
+  width: 400px;
+  height: 44px;
+}
+.body_char .header_char .buttons .buttons_Add_Edit .button_add {
   background-color: #1c484e;
   border: none;
   border-radius: 5px;
@@ -346,11 +368,11 @@ html {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.body_char .header_char .buttons .button_add:hover {
+.body_char .header_char .buttons .buttons_Add_Edit .button_add:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-.body_char .header_char .buttons .button_add a {
+.body_char .header_char .buttons .buttons_Add_Edit .button_add a {
   text-decoration: none;
   font: 16px "Comic Neue", cursive;
   color: #53ddd4;
@@ -444,80 +466,24 @@ html {
   background-size: cover;
   background-position-y: -300px;
 }
-.body_ajt .header_ajt .buttons {
+.body_ajt .header_ajt .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0px 20px;
-  padding-top: 20px;
-}
-.body_ajt .header_ajt .buttons form {
-  background-color: #1c484e;
-  width: 300px;
-  height: 44px;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.body_ajt .header_ajt .buttons form input {
-  all: unset;
-  font: 16px "Comic Neue", cursive;
-  color: #53ddd4;
-  height: 100%;
-  width: 100%;
-  padding: 6px 10px;
-}
-.body_ajt .header_ajt .buttons form input ::-webkit-input-placeholder {
-  color: #53ddd4;
-  opacity: 0.7;
-}
-.body_ajt .header_ajt .buttons form input ::-moz-placeholder {
-  color: #53ddd4;
-  opacity: 0.7;
-}
-.body_ajt .header_ajt .buttons form input :-ms-input-placeholder {
-  color: #53ddd4;
-  opacity: 0.7;
-}
-.body_ajt .header_ajt .buttons form input ::-ms-input-placeholder {
-  color: #53ddd4;
-  opacity: 0.7;
-}
-.body_ajt .header_ajt .buttons form input ::placeholder {
-  color: #53ddd4;
-  opacity: 0.7;
-}
-.body_ajt .header_ajt .buttons form .button_search {
-  all: unset;
-  cursor: pointer;
-  width: 44px;
-  height: 44px;
-}
-.body_ajt .header_ajt .buttons form .button_search svg {
-  color: #53ddd4;
-  fill: currentColor;
-  width: 24px;
-  height: 24px;
-  padding: 10px;
-}
-.body_ajt .header_ajt .title {
   text-align: center;
   font-family: "Comic Neue", cursive;
   font-size: xx-large;
   font-weight: bold;
+  height: 100%;
+  width: 100%;
 }
-.body_ajt .header_ajt .title a {
+.body_ajt .header_ajt .title .title_ajt {
   text-decoration: none;
   color: #53ddd4;
 }

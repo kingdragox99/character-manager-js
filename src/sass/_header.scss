@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -300px;
+    
 
     .buttons {
       display: flex;
@@ -51,23 +52,31 @@
         }
       }
 
-      .button_add {
-        background-color: #1c484e;
-        border: none;
-        border-radius: 5px;
-        text-align: center;
-        cursor: pointer;
-        transition: all 0.5s;
+      .buttons_Add_Edit{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+        width: 400px;
+        height: 44px;
+        
+          .button_add {
+            background-color: #1c484e;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.5s;
 
-        &:hover {
-          transform: scale(1.1);
-        }
+          &:hover {
+            transform: scale(1.1);
+          }
 
-        a {
-          text-decoration: none;
-          font: 16px $comic;
-          color: $bluetext;
-          padding: 12px 20px;
+          a {
+            text-decoration: none;
+            font: 16px $comic;
+            color: $bluetext;
+            padding: 12px 20px;
+          }
         }
       }
     }
@@ -78,7 +87,7 @@
       font-size: xx-large;
       font-weight: bold;
 
-      a {
+      .title_ajt {
         text-decoration: none;
         color: $bluetext;
       }
