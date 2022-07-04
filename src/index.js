@@ -17,6 +17,7 @@ const listCharacters = async () => {
         img.setAttribute("id", "pImg" + i);
         img.setAttribute("src", "data:image/png;base64," + json[i].image);
         img.setAttribute("class", "main_img")
+        img.setAttribute("alt", "img")
         document.getElementById("div" + i).appendChild(img);
 
         const pName = document.createElement("p");
@@ -36,7 +37,6 @@ const listCharacters = async () => {
         const aBtn = document.createElement("a");
         aBtn.setAttribute("id", "aBtn" + i);
         aBtn.setAttribute("class", "p_test_btn");
-        aBtn.setAttribute("href", "yooooo")
         document.getElementById("div" + i).appendChild(aBtn);
 
         document.getElementById("aBtn" + i).innerHTML = "Learn More";
@@ -53,6 +53,7 @@ const listCharacters = async () => {
 
             const img = document.createElement("img");
             img.setAttribute("id", "pImg");
+            img.setAttribute("alt", "image");
             img.setAttribute("src", "data:image/png;base64," + json[i].image);
             img.setAttribute("class", "img_char")
 
@@ -119,6 +120,7 @@ const submitted = async (event) => {
     img.setAttribute("id", "pImg");
     img.setAttribute("src", "data:image/png;base64," + json[0].image);
     img.setAttribute("class", "img_char")
+    img.setAttribute("alt", "image")
 
     document.getElementById("main_char_div").appendChild(img);
 
