@@ -6,6 +6,8 @@ Making a website that shows a list of characters and alows the user to interact 
 
 ## Acknowledgements
 
+ - [Character manager bundle](https://62c2fc366049b9109cddb090--voluble-bubblegum-087682.netlify.app/index.html)
+
  - [Character manager](https://kingdragox99.github.io/character-manager-js/)
 
 
