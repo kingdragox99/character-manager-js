@@ -13,9 +13,9 @@ Making a website that shows a list of characters and alows the user to interact 
 
 ## Authors
 
-js : 
+- js : 
 - [Arthur Lefevre](https://github.com/kingdragox99)
-Sass html css:
+- Sass html css:
 - [Mariya Krasteva](https://github.com/MariyaMaki)
 
 
