@@ -841,26 +841,34 @@ html {
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .body_char .header_char {
-    height: 150px;
+    height: 160px;
     background-image: url("../img/giphTechno.gif");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -150px;
+    background-size: 120%;
+    background-position: center;
   }
   .body_char .header_char .buttons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0px 15px;
     padding-top: 15px;
+    height: 80px;
   }
   .body_char .header_char .buttons form {
     background-color: #1c484e;
     width: 200px;
-    height: 44px;
+    height: 20px;
     border-radius: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -911,21 +919,26 @@ html {
     color: #53ddd4;
     fill: currentColor;
     width: 24px;
-    height: 24px;
-    padding: 10px;
+    height: 15px;
+    padding: 5px;
   }
   .body_char .header_char .buttons .buttons_Add_Edit {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 200px;
     height: 44px;
-    margin: 0;
+    margin: 5px auto;
   }
   .body_char .header_char .buttons .buttons_Add_Edit .button_add {
+    margin: 5px auto;
     background-color: #1c484e;
     border: none;
     border-radius: 5px;
@@ -949,11 +962,47 @@ html {
     font-family: "Comic Neue", cursive;
     font-size: xx-large;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .body_char .header_char .title .title_ajt {
     text-decoration: none;
     color: #53ddd4;
+  }
+  .body_char .main_char .main_char_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .body_char .main_char .main_char_div .p_char_desc {
+    color: #6cfcf3;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    padding: 60px;
+    font-size: large;
+    font-weight: bold;
+  }
+  .body_char .main_char .main_char_div .p_test_btn_c {
+    text-decoration: none;
+    background-color: #1c484e;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto !important;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .body_char .main_char .main_char_div .p_test_btn_c:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 .body_ajt {
