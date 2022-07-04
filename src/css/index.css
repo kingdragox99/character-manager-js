@@ -512,6 +512,15 @@ html {
           align-items: center;
   margin: 0 auto;
 }
+.body_ajt .main_ajt .form_char_ajt .character_selection {
+  color: #53ddd4;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #1c484e;
+  height: 25px;
+  width: 150px;
+}
 .body_ajt .main_ajt .form_char_ajt .input_img_ajt {
   display: -webkit-box;
   display: -ms-flexbox;
