@@ -200,7 +200,7 @@
             font-size: x-large;
             font-weight: bold;
             margin-top: 0px;
-            padding-top: 30px;
+            padding-top: 40px;
       
             .title_ajt {
               text-decoration: none;
@@ -279,7 +279,7 @@
 
             .input_main_ajt_name {
                 @include input;
-                width: 100px;
+                width: 240px;
 
                 &:focus {
                     @include focus;
@@ -290,7 +290,7 @@
 
             .input_main_ajt_dscS {
                 @include input;
-                width: 100px;
+                width: 240px;
 
                 &:focus {
                     @include focus;
@@ -301,7 +301,7 @@
 
             .input_main_ajt_dscL {
                 @include input;
-                width: 100px;
+                width: 240px;
 
 
                 &:focus {
@@ -332,4 +332,4 @@
             }
         }
     }
-    }
+}

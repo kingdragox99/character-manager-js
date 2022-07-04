@@ -1222,7 +1222,7 @@ html {
     font-size: x-large;
     font-weight: bold;
     margin-top: 0px;
-    padding-top: 30px;
+    padding-top: 40px;
   }
   .body_ajt .header_ajt .title .title_ajt {
     text-decoration: none;
@@ -1311,7 +1311,7 @@ html {
     border-bottom: 1px solid #53ddd4;
     background-color: #1c484e;
     border-radius: 5px;
-    width: 100px;
+    width: 240px;
     color: #53ddd4;
   }
   .main_ajt .form_char_ajt .input_main_ajt_name:focus {
@@ -1330,7 +1330,7 @@ html {
     border-bottom: 1px solid #53ddd4;
     background-color: #1c484e;
     border-radius: 5px;
-    width: 100px;
+    width: 240px;
     color: #53ddd4;
   }
   .main_ajt .form_char_ajt .input_main_ajt_dscS:focus {
@@ -1349,7 +1349,7 @@ html {
     border-bottom: 1px solid #53ddd4;
     background-color: #1c484e;
     border-radius: 5px;
-    width: 100px;
+    width: 240px;
     color: #53ddd4;
   }
   .main_ajt .form_char_ajt .input_main_ajt_dscL:focus {
