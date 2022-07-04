@@ -94,3 +94,217 @@
     }
   }
 }
+
+
+//query tablette
+@media (min-width:768px) and (max-width:1024px) {
+
+  .body_index {
+    .header_index {
+      height: 150px;
+      background-image: url("../img/giphTechno.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: -150px;
+      
+  
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+        padding-top: 15px;
+  
+        form {
+          background-color: #1c484e;
+          width: 200px;
+          height: 44px;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+  
+          input {
+            all: unset;
+            font: 16px $comic;
+            color: $bluetext;
+            height: 100%;
+            width: 100%;
+            padding: 6px 10px;
+  
+            ::placeholder {
+              color: $bluetext;
+              opacity: 0.7;
+            }
+          }
+  
+          .button_search {
+            all: unset;
+            cursor: pointer;
+            width: 44px;
+            height: 44px;
+  
+            svg {
+              color: $bluetext;
+              fill: currentColor;
+              width: 24px;
+              height: 24px;
+              padding: 10px;
+            }
+          }
+        }
+  
+        .buttons_Add_Edit{
+          display: flex;
+          justify-content: space-between;
+          width: 300px;
+          height: 44px;
+          margin: 0;
+          
+            .button_add {
+              background-color: #1c484e;
+              border: none;
+              border-radius: 5px;
+              text-align: center;
+              cursor: pointer;
+              transition: all 0.5s;
+            
+  
+            &:hover {
+              transform: scale(1.1);
+            }
+  
+            a {
+              text-decoration: none;
+              font: 16px $comic;
+              color: $bluetext;
+              padding: 3px 5px;
+            }
+          }
+        }
+      }
+  
+      .title {
+        text-align: center;
+        font-family: $comic;
+        font-size: xx-large;
+        font-weight: bold;
+        margin-top: 20px;
+  
+        .title_ajt {
+          text-decoration: none;
+          color: $bluetext;
+          
+        }
+      }
+    }
+  }
+}
+
+//query gsm
+@media (min-width:320px) and (max-width:480px) {
+
+  .body_index {
+    .header_index {
+      height: 160px;
+      background-image: url("../img/giphTechno.gif");
+      background-repeat: no-repeat;
+      background-size: 120%;
+      background-position: center;
+      
+  
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px 15px;
+        padding-top: 15px;
+        height: 80px;
+  
+        form {
+          background-color: #1c484e;
+          width: 200px;
+          height: 20px;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+  
+          input {
+            all: unset;
+            font: 16px $comic;
+            color: $bluetext;
+            height: 100%;
+            width: 100%;
+            padding: 6px 10px;
+  
+            ::placeholder {
+              color: $bluetext;
+              opacity: 0.7;
+            }
+          }
+  
+          .button_search {
+            all: unset;
+            cursor: pointer;
+            width: 44px;
+            height: 44px;
+  
+            svg {
+              color: $bluetext;
+              fill: currentColor;
+              width: 24px;
+              height: 15px;
+              padding: 5px;
+            }
+          }
+        }
+  
+        .buttons_Add_Edit{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          width: 200px;
+          height: 44px;
+          margin: 5px auto;
+          
+            .button_add {
+              margin: 5px auto;
+              background-color: #1c484e;
+              border: none;
+              border-radius: 5px;
+              text-align: center;
+              cursor: pointer;
+              transition: all 0.5s;
+            
+  
+            &:hover {
+              transform: scale(1.1);
+            }
+  
+            a {
+              text-decoration: none;
+              font: 16px $comic;
+              color: $bluetext;
+              padding: 3px 5px;
+            }
+          }
+        }
+      }
+  
+      .title {
+        text-align: center;
+        font-family: $comic;
+        font-size: xx-large;
+        font-weight: bold;
+        margin-top: 10px;
+  
+        .title_ajt {
+          text-decoration: none;
+          color: $bluetext;
+          
+        }
+      }
+    }
+  }
+}

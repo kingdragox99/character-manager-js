@@ -169,6 +169,253 @@ table {
   color: #53ddd4;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body_index .header_index {
+    height: 150px;
+    background-image: url("../img/giphTechno.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+  }
+  .body_index .header_index .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0px 15px;
+    padding-top: 15px;
+  }
+  .body_index .header_index .buttons form {
+    background-color: #1c484e;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body_index .header_index .buttons form input {
+    all: unset;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .body_index .header_index .buttons form input ::-webkit-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input ::-moz-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input :-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input ::-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input ::placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form .button_search {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .body_index .header_index .buttons form .button_search svg {
+    color: #53ddd4;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 300px;
+    height: 44px;
+    margin: 0;
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit .button_add {
+    background-color: #1c484e;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit .button_add:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit .button_add a {
+    text-decoration: none;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    padding: 3px 5px;
+  }
+  .body_index .header_index .title {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .body_index .header_index .title .title_ajt {
+    text-decoration: none;
+    color: #53ddd4;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .body_index .header_index {
+    height: 160px;
+    background-image: url("../img/giphTechno.gif");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+  }
+  .body_index .header_index .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px 15px;
+    padding-top: 15px;
+    height: 80px;
+  }
+  .body_index .header_index .buttons form {
+    background-color: #1c484e;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body_index .header_index .buttons form input {
+    all: unset;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .body_index .header_index .buttons form input ::-webkit-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input ::-moz-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input :-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input ::-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form input ::placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_index .header_index .buttons form .button_search {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .body_index .header_index .buttons form .button_search svg {
+    color: #53ddd4;
+    fill: currentColor;
+    width: 24px;
+    height: 15px;
+    padding: 5px;
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 200px;
+    height: 44px;
+    margin: 5px auto;
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit .button_add {
+    margin: 5px auto;
+    background-color: #1c484e;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit .button_add:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .body_index .header_index .buttons .buttons_Add_Edit .button_add a {
+    text-decoration: none;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    padding: 3px 5px;
+  }
+  .body_index .header_index .title {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .body_index .header_index .title .title_ajt {
+    text-decoration: none;
+    color: #53ddd4;
+  }
+}
 html {
   overflow-x: hidden;
 }
@@ -273,6 +520,11 @@ html {
 .body_char {
   font-family: "Comic Neue", cursive;
   height: 100vh;
+  background-image: url("../img/space_retravaille-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .body_char .header_char {
   height: 150px;
@@ -389,15 +641,6 @@ html {
   text-decoration: none;
   color: #53ddd4;
 }
-.body_char .main_char {
-  height: 100%;
-  width: 100%;
-  background-image: url("../img/space_retravaille-01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 .body_char .main_char .main_char_div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -440,8 +683,7 @@ html {
   border: none;
   border-radius: 5px;
   text-align: center;
-  margin-top: 20px;
-  margin-left: 210px;
+  margin: 0 auto;
   cursor: pointer;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -451,6 +693,269 @@ html {
           transform: scale(1.1);
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body_char {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/space_retravaille-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .body_char .header_char {
+    height: 150px;
+    background-image: url("../img/giphTechno.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+  }
+  .body_char .header_char .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0px 15px;
+    padding-top: 15px;
+  }
+  .body_char .header_char .buttons form {
+    background-color: #1c484e;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body_char .header_char .buttons form input {
+    all: unset;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .body_char .header_char .buttons form input ::-webkit-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input ::-moz-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input :-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input ::-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input ::placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form .button_search {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .body_char .header_char .buttons form .button_search svg {
+    color: #53ddd4;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 300px;
+    height: 44px;
+    margin: 0;
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit .button_add {
+    background-color: #1c484e;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit .button_add:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit .button_add a {
+    text-decoration: none;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    padding: 3px 5px;
+  }
+  .body_char .header_char .title {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .body_char .header_char .title .title_ajt {
+    text-decoration: none;
+    color: #53ddd4;
+  }
+
+  .main_char .p_test_btn_c {
+    text-decoration: none;
+    background-color: #1c484e;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto !important;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .main_char .p_test_btn_c:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .body_char .header_char {
+    height: 150px;
+    background-image: url("../img/giphTechno.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+  }
+  .body_char .header_char .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0px 15px;
+    padding-top: 15px;
+  }
+  .body_char .header_char .buttons form {
+    background-color: #1c484e;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body_char .header_char .buttons form input {
+    all: unset;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .body_char .header_char .buttons form input ::-webkit-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input ::-moz-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input :-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input ::-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form input ::placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_char .header_char .buttons form .button_search {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .body_char .header_char .buttons form .button_search svg {
+    color: #53ddd4;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 300px;
+    height: 44px;
+    margin: 0;
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit .button_add {
+    background-color: #1c484e;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit .button_add:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .body_char .header_char .buttons .buttons_Add_Edit .button_add a {
+    text-decoration: none;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    padding: 3px 5px;
+  }
+  .body_char .header_char .title {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .body_char .header_char .title .title_ajt {
+    text-decoration: none;
+    color: #53ddd4;
+  }
+}
 .body_ajt {
   background-image: url("../img/space_retravaille-01.jpg");
   background-repeat: no-repeat;
@@ -633,4 +1138,141 @@ html {
 .body_ajt .main_ajt .button_ajt:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body_ajt .header_ajt {
+    height: 150px;
+    background-image: url("../img/giphTechno.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+  }
+  .body_ajt .header_ajt .title {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .body_ajt .header_ajt .title .title_ajt {
+    text-decoration: none;
+    color: #53ddd4;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .body_ajt .header_ajt {
+    height: 150px;
+    background-image: url("../img/giphTechno.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+  }
+  .body_ajt .header_ajt .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0px 15px;
+    padding-top: 15px;
+  }
+  .body_ajt .header_ajt .buttons form {
+    background-color: #1c484e;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .body_ajt .header_ajt .buttons form input {
+    all: unset;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .body_ajt .header_ajt .buttons form input ::-webkit-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_ajt .header_ajt .buttons form input ::-moz-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_ajt .header_ajt .buttons form input :-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_ajt .header_ajt .buttons form input ::-ms-input-placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_ajt .header_ajt .buttons form input ::placeholder {
+    color: #53ddd4;
+    opacity: 0.7;
+  }
+  .body_ajt .header_ajt .buttons form .button_search {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .body_ajt .header_ajt .buttons form .button_search svg {
+    color: #53ddd4;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  .body_ajt .header_ajt .buttons .buttons_Add_Edit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 300px;
+    height: 44px;
+    margin: 0;
+  }
+  .body_ajt .header_ajt .buttons .buttons_Add_Edit .button_add {
+    background-color: #1c484e;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .body_ajt .header_ajt .buttons .buttons_Add_Edit .button_add:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .body_ajt .header_ajt .buttons .buttons_Add_Edit .button_add a {
+    text-decoration: none;
+    font: 16px "Comic Neue", cursive;
+    color: #53ddd4;
+    padding: 3px 5px;
+  }
+  .body_ajt .header_ajt .title {
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .body_ajt .header_ajt .title .title_ajt {
+    text-decoration: none;
+    color: #53ddd4;
+  }
 }/*# sourceMappingURL=index.css.map */
