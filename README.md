@@ -34,3 +34,7 @@ Javascript, HTML, CSS, sass...
 - Fix bug on img
 ## Screenshots
 [![kingdragox99-github-io-1920x-FULLdesktop-4946ea.jpg](https://i.postimg.cc/g0kPC88Z/kingdragox99-github-io-1920x-FULLdesktop-4946ea.jpg)](https://postimg.cc/nX557sdF)
+
+[![kingdragox99-github-io-800x-FULLtablet-4946ea.jpg](https://i.postimg.cc/4yhKpr3s/kingdragox99-github-io-800x-FULLtablet-4946ea.jpg)](https://postimg.cc/N2BfcCTz)
+
+[![kingdragox99-github-io-320x-FULLphone-4946ea.jpg](https://i.postimg.cc/2SNS9CmB/kingdragox99-github-io-320x-FULLphone-4946ea.jpg)](https://postimg.cc/ZCjmCtWT)
